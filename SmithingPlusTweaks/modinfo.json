@@ -7,7 +7,7 @@
     "millennIumAMbiguity"
   ],
   "description": "Fixes configs issues and add a client config for SmithingPlus",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "dependencies": {
     "smithingplus": "1.8.3"
   }
