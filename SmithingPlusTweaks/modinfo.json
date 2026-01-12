@@ -1,0 +1,14 @@
+{
+  "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+  "type": "Code",
+  "modid": "smithingplustweaks",
+  "name": "SmithingPlus Tweaks",
+  "authors": [
+    "millennIumAMbiguity"
+  ],
+  "description": "Fixes configs issues and add a client config for SmithingPlus",
+  "version": "1.0.0",
+  "dependencies": {
+    "smithingplus": "1.8.3"
+  }
+}
