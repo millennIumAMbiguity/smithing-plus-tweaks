@@ -1,0 +1,28 @@
+[
+  {
+    "dependsOn": [
+      { "modid": "gloomeclasses" },
+      { "modid": "smithingplus" }
+    ],
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-tinbronze",
+    "side": "Server",
+    "value": [
+      { "name": "smithingplus:WorkableNugget" }
+    ],
+    "file": "game:itemtypes/resource/metalbit.json"
+  },
+  {
+    "dependsOn": [
+      { "modid": "gloomeclasses" },
+      { "modid": "smithingplus" }
+    ],
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-blackbronze",
+    "side": "Server",
+    "value": [
+      { "name": "smithingplus:WorkableNugget"}
+    ],
+    "file": "game:itemtypes/resource/metalbit.json"
+  }
+]
