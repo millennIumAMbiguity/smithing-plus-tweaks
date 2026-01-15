@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using SmithingPlus.Config;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Server;
@@ -100,7 +99,7 @@ public class ConfigLoader : ModSystem
         
         var fields = typeof(SmithingPlusConfig).GetProperties();
         var final = new List<PropertyInfo>();
-        var t = typeof(ServerConfig);
+        var t = typeof(SmithingPlus.Config.ServerConfig);
         
         // Filter list to only
         for (int i = fields.Length - 1; i >= 0; i--)
